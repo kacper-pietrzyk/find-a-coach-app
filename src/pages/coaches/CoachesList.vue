@@ -97,7 +97,7 @@ export default {
       return this.$store.getters['coaches/isCoach'];
     },
     isLoggedIn() {
-      return this.store.getters.isAuthenticated;
+      return this.$store.getters.isAuthenticated;
     },
   },
   created() {
